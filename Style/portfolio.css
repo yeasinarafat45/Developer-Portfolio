@@ -1,0 +1,276 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+}
+
+/*========================
+Header and Navigation Area
+=========================*/
+.header {
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-left: 50px;
+
+}
+
+.btn-primary {
+    color: var(--White-Color, #FFF);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 18px 35px;
+    border: 0;
+}
+
+.header_area {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-subtitle {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 45px;
+    margin-bottom: 5px;
+}
+
+.portfolio-title {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.portfolio-description {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-top: 130px;
+    padding: 130px 155px;
+}
+
+.section-title {
+    text-align: center;
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+}
+
+.info-description {
+    color: var(--Dark-03, #000000);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.what-i-do {
+    margin-top: 130px;
+    text-align: center;
+}
+
+.what-i-do-title {
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.what-i-do-description {
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    margin-bottom: 80px;
+    padding: 0 150px;
+}
+
+.skills {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.skills-container {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.skills-name {
+    margin: 20px 0;
+}
+
+.skills-description {}
+
+.resume-section {
+    margin-bottom: 50px;
+}
+
+.resume-title {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.education-experience {
+    display: flex;
+    text-align: left;
+    gap: 20px;
+}
+
+.education {}
+
+.edu-ex-title {
+    color: var(--Dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+    padding: 40px 30px;
+
+}
+
+.education-degree {
+    border-bottom: 1px solid black;
+}
+
+.degree-deg {
+    color: var(--Dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+    padding: 5px 25px;
+}
+
+.institute-duration {
+    color: var(--Dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 20px;
+}
+
+.description {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 16px;
+}
+
+.resume-download {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-section {
+    display: flex;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    gap: 115px;
+    padding: 50px 100px;
+}
+
+.contact-section .social-icon img {
+    color: #FFF8F3;
+    margin-top: 30px;
+    margin-right: 24px;
+}
+
+.connect-area-title {
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.connect-area-description {
+    color: var(--Dark-02, #474747);
+    margin-bottom: 30px;
+}
+
+.contact-area {}
+
+.contact-area input {
+    width: 461px;
+    height: 64px;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    margin-bottom: 24px;
+    border: 0;
+}
+.contact-area input[type="text"], textarea{
+    padding-left: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border: 0;
+}
+
+.contact-area-title {
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.contact-area .btn-primary{
+    margin-top: 24px;
+}
